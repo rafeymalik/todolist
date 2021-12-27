@@ -1,0 +1,58 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+* {
+    color: var(--fontColor);
+    font-family: helvatica;
+}
+body {
+    background: var(--bg);
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+.list:hover {
+    background-color: aqua;
+}
+
+.light-theme {
+    --btnFontColor: var(--white);
+    --btnBg: var(--black);
+    --bg: var(--green);
+    --fontColor: black;
+}
+.dark-theme {
+    --bg: black;
+    --fontColor: var(--green);
+    --btnFontColor: black;
+    --btnBg: var(--white);
+}
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+.btn:focus {
+    outline-style: none;
+}
+.submitbutton {
+    background-color: red;
+}

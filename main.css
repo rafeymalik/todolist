@@ -1,4 +1,8 @@
-:root {
+body {
+  background-color: #1ad672;
+  margin: 20px;
+}
+/*:root {
     --green: #00FF00;
     --white: #ffffff;
     --black: #000000;
@@ -55,4 +59,4 @@ li {
 }
 .submitbutton {
     background-color: red;
-}
+}*/

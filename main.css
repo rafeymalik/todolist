@@ -1,6 +1,23 @@
 body {
-  background-color: #1ad672;
-  margin: 20px;
+  background-color: #33bd55;
+  margin: 30px;
+  color: white;
+}
+.header {
+  text-align: center;
+  margin-left: 0px;
+}
+.body {
+  margin-left: 100px;
+  font-size: 20px;
+  font: Arial;
+}
+.main title {
+  font: Verdana;
+  text-align: right;
+}
+h2 {
+  color: #efbaf7;
 }
 /*:root {
     --green: #00FF00;
